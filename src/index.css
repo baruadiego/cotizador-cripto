@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	line-height: 1;
+}
+html{
+	font-size: 62.5%;
+	font-family: 'arial', sans-serif;
+}
+
+body{
+	background-image: url('https://www.globaltechcouncil.org/wp-content/uploads/2018/12/Bitcoin-Background-2400x1256.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.container{
+	width: 100rem;
+	max-width: 95%;
+	justify-self: center;
+	justify-content: center;
+	justify-items: center;
+}
+
+.head{
+	margin-top: 1rem;
+	font-size: 4.5rem;
+	color: white;
+}
+.head span{
+	color: #61ECBC;
+	display: block;
+	margin-top: -1rem;
+}
+
+.form{
+	background-color: white;
+	margin: 3rem 0;
+	border-radius: 1rem;
+	width: 60rem;
+	max-width: 95%;
+	padding: 3rem;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+select{
+	padding: 1rem;
+	border: none;
+	font-size: 1.6rem;
+	background-color: #dbdbdb;
+	border-radius: 1rem;
+	margin: 1rem 0 2rem;
+}
+
+label{
+	font-size: 1.6rem;
+	text-transform: capitalize;
+	font-weight: 600;
+}
+
+input[type="submit"]{
+	background-color: #61ECBC;
+	color: rgb(0, 0, 0);
+	border: none;
+	font-size: 1.6rem;
+	padding: 1rem;
+	border-radius: 1rem;
+	cursor: pointer;
+	font-weight: 600;
+	transition: background-color .3s ease-in-out;
+	margin-bottom: 4rem;
+}
+
+input[type="submit"]:hover{
+	background-color: #3ad39d;
+}
+input[type="submit"]:disabled{
+	opacity: .6;
+	cursor: default;
+}
+input[type="submit"]:disabled:hover{
+	background-color: #61ECBC;
+}
+
+.head-crypto{
+	font-size: 2.8rem;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.result-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.result-wrapper img{
+	height: 12rem;
+	margin-right: 2rem;
+}
+.price{
+	font-size: 1.6rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	flex-grow: 1;
+}
+
+.price span{
+	font-weight: 600;
+}
+
